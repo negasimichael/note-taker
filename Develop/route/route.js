@@ -9,9 +9,6 @@ module.exports = app => {
         if (err) throw err;
 
         var notes = JSON.parse(data);
-
-        // API ROUTES
-        // ========================================================
     
         // Setup the /api/notes get route
         app.get("/api/notes", function(req, res) {
@@ -30,7 +27,7 @@ module.exports = app => {
 
         // Retrieves a note with specific id
         app.get("/api/notes/:id", function(req,res) {
-            // display json for the notes array indices of the provided id
+            // display json for the notes array indicates of the provided id
             res.json(notes[req.params.id]);
         });
 
@@ -41,17 +38,14 @@ module.exports = app => {
             console.log("Deleted note with id "+req.params.id);
         });
 
-        // VIEW ROUTES
-        // ========================================================
-
         // Display notes.html when /notes is accessed
         app.get('/notes', function(req,res) {
-            res.sendFile(path.join(__dirname, "../public/notes.html"));
+            res.sendFile(path.join(__dirname, "./public/notes.html"));
         });
         
         // Display index.html when all other routes are accessed
         app.get('*', function(req,res) {
-            res.sendFile(path.join(__dirname, "../public/index.html"));
+            res.sendFile(path.join(__dirname, "./public/index.html"));
         });
 
         //updates the json file whenever a note is added or deleted
