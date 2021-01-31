@@ -1,6 +1,7 @@
 # note-taker
 
 ## Description
+Note_Taker app node express allow users to create, to view previously saved notes and able to delete notes have written befor from a JSON file. This app includes public, db and routes directory for front page files, backend storage and routes respectivley. In addition, server.js, package.json, .gitignore and a readme.md are added to run the app, install dependencies, ignore DS and node_module and provide app information respectively. This app is developed by [negasimichael](https://github.com/negasimichael/note-taker) as a sample to show personal skill in the manipulation of node express to create routes to connect the front and back end.
    
    ## Table of Contents
    * [Installation Instructions](#installation-instructions)
