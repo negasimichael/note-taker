@@ -19,7 +19,7 @@ Note_Taker app node express allow users to create, to view previously saved note
 The developer is authorizing a free installation by cloning from the code [negasimichael](https://github.com/negasimichael/note-taker)
    
    ## Usage Instructions
-  i.Open the link
+  i.Open the link https://notetakern.herokuapp.com/
 
   ii.Click get started and type your notes and save it.
 
@@ -31,7 +31,7 @@ iii.You can click on the note to view and click delete to delete it.
 
 
 ## Contribution
-  [negasimichael]() is the only contrubuter of this project .
+  [negasimichael](https://github.com/negasimichael) is the only contrubuter of this project .
 
    ## Developer Contact Information
   * Linkedin Profile: [negasimichael](https://www.linkedin.com/feed/)
