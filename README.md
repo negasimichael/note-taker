@@ -25,16 +25,18 @@ The developer is authorizing a free installation by cloning from the code [negas
 
 iii.You can click on the note to view and click delete to delete it.
 
-![note-taker](Assets/.png)
+![note-taker](/Develop/public/assets/Images/note-taker1.png)
+
+![note-taker](/Develop/public/assets/Images/note-taker.png)
 
 
 ## Contribution
   [negasimichael]() is the only contrubuter of this project .
 
    ## Developer Contact Information
-  * Linkedin Profile:[negasimichael](https://www.linkedin.com/feed/)
-  * Deployed URL :[negasimichael]( https://negasimichael.github.io/note-taker/)
-  * Github URL:[negasimichael](https://github.com/negasimichael/note-taker)
+  * Linkedin Profile: [negasimichael](https://www.linkedin.com/feed/)
+  * Deployed URL: [negasimichael](#)
+  * Github URL: [negasimichael](https://github.com/negasimichael/note-taker)
   * Email: negasimichael1@gmail.com
 
    ## License
